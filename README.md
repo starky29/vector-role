@@ -11,10 +11,10 @@ Do not use this role for CentOS 7, because libc-2.18.so is not supported in Cent
 Role Variables
 --------------
 
-vector_version: "0.41.1"
-vector_config_file: "vector.toml.j2"
-vector_service_file: "vector.service.j2"
-vector_config (defaults/main.yml)
+* vector_version: "0.41.1"
+* vector_config_file: "vector.toml.j2"
+* vector_service_file: "vector.service.j2"
+* vector_config (defaults/main.yml)
 
 Example Playbook
 ----------------
