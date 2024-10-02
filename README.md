@@ -15,6 +15,10 @@ Role Variables
 * vector_config_file: "vector.toml.j2"
 * vector_service_file: "vector.service.j2"
 * vector_config (defaults/main.yml)
+```
+В файле **[vector/vars.yml]** укажите IP на котором будет запущен clickhouse, если сервис будет запущен на одной инстансе, то оставьте настройку как есть
+```YML
+endpoint: http://localhost:8123
 
 Example Playbook
 ----------------
